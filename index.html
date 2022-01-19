@@ -1,10 +1,139 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>
-			Hello World
-		</title>
-	</head>
-	<body>
-		Write your code for the submission by editing this file
-	</body>
+    <head>
+        <title>Covid Guide by Mukund Aggarwal</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_index.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="Images/Favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/Favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Images/Favicons/favicon-16x16.png">
+        <link rel="manifest" href="Images/Favicons/site.webmanifest">
+        <link rel="mask-icon" href="Images/Favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <nav id="navbar">
+            <span>
+                <table class="nav-bar-links">
+                    <tbody>
+                        <td><a href="#main-body-content">Home</a></td>
+                        <td><a href="#tips-content">Tips</a></td>
+                        <td><a href="#symptoms-content">Symptoms</a></td>
+                        <td><a href="#faqs-content">FAQs</a></td>
+                        <td><a href="#youtube-content">YouTube</a></td>
+                    </tbody>
+                </table>
+            </span>
+       </nav>
+
+       <span id="main-body-content" class="bodyDisplayElem">
+            <div class="banner-title">
+                <h2>Confused about where to get the right information about COVID-19?</h2>
+                <h1>
+                    Don’t worry, we got you !
+                </h1>
+            </div>
+            <div class="background-cover-1"></div>
+       </span>
+       <span id="tips-content" class="bodyDisplayElem">
+            <h1>Tips</h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><img src="Images/FFP2 Face mask-amico 1.png" alt="Mask"></td>
+                        <td><p>Wear a Mask.</p></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><p>Wash your Hands .</p></td>
+                        <td><img src="Images/Handwashing-amico 1.png" alt="Mask"></td>
+                    </tr>
+                </tbody>
+            </table>
+       </span>
+
+       <span id="symptoms-content" class="bodyDisplayElem">
+            <h1>Symptoms</h1>
+            <table>
+                <thead>
+                    <th>Symptoms</th>
+                    <th>Severity</th>
+                    <th>Advice</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fever</td>
+                        <td>Mild</td>
+                        <td>Drink plenty of fluids,<br /> particularily water</td>
+                    </tr>
+                    <tr>
+                        <td>Cold</td>
+                        <td>Mild</td>
+                        <td>Drink plenty of fluids,<br /> particularily water</td>
+                    </tr>
+                    <tr>
+                        <td>Cough</td>
+                        <td>Mild</td>
+                        <td>Drink plenty of fluids,<br /> particularily water</td>
+                    </tr>
+                    <tr>
+                        <td>Tiredness</td>
+                        <td>Mild</td>
+                        <td>Drink plenty of fluids,<br /> particularily water</td>
+                    </tr>
+                </tbody>
+            </table>
+       </span>
+
+       <span id="faqs-content" class="bodyDisplayElem">
+            <h1>FAQs</h1><br /><br /><br />
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <h3>What is COVID-19?</h3>
+                            <p>COVID-19 is a disease caused by a virus called SARS-CoV-2. Most people with COVID-19 have mild symptoms, but some people can become severely ill. Although most people with COVID-19 get better within weeks of illness, some people experience post-COVID conditions. Post-COVID conditions are a wide range of new, returning, or ongoing health problems people can experience more than four weeks after first being infected with the virus that causes COVID-19. Older people and those who have certain underlying medical conditions are more likely to get severely ill from COVID-19. Vaccines against COVID-19 are safe and effective.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Should I use soap and water or hand sanitizer to protect myself?</h3>
+                            <p>Handwashing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>What are the symptoms and complications that COVID-19 can cause?</h3>
+                            <p>People with COVID-19 have reported a wide range of symptoms – from mild symptoms to severe illness. Symptoms may appear 2-14 days after exposure to the virus. If you have fever, cough, or other symptoms, you might have COVID-19.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+       </span>       
+
+       <span id="youtube-content" class="bodyDisplayElem">
+            <h1>YouTube</h1>
+            <iframe width="782" height="440" src="https://www.youtube.com/embed/qHksVwOrpbE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </span>
+
+       <footer id="footer-content" class="bodyDisplayElem">
+            &copy; Made by <u>Mukund Aggarwal</u>. <br />
+            <a href="https://www.linkedin.com/in/mukund-aggarwal-08823122b/"><button><img src="Images/linkedin.png" alt="LinkedIn"></button></a>
+            <a href="https://github.com/mukundagg"><button><img src="Images/github.png" alt="GitHub"></button></a>
+       </footer>
+
+       <script>
+           var listOfDisplayElems = document.getElementsByClassName("bodyDisplayElem"), distFromTop = 0;
+           for(var i = 0; i < listOfDisplayElems.length; i++) {
+                listOfDisplayElems[i].style.top = distFromTop + "px";
+                distFromTop += listOfDisplayElems[i].getBoundingClientRect().height;
+           }
+        </script>
+    </body>
 </html>
