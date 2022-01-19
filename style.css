@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #4C0027;
+  height: 90px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+nav .nav-bar-links {
+  position: relative;
+  top: 0px;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  margin-left: calc(10% - 40px);
+  align-items: center;
+}
+nav .nav-bar-links td {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 1.3em;
+  font-family: "Roboto";
+  background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.2) 50%) right;
+  background-size: 300%;
+  transition: all 0.3s ease-in-out;
+}
+nav .nav-bar-links td a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  line-height: 90.9px;
+}
+nav .nav-bar-links td:hover {
+  background-position: left;
+  color: #fff;
+  cursor: pointer;
+}
+nav .nav-bar-links td:hover a {
+  color: #fff;
+  text-shadow: #aaa 1px 0 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
