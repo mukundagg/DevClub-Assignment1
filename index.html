@@ -4,7 +4,7 @@
         <title>Covid Guide by Mukund Aggarwal</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="style_index.css">
-        <!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+        <link rel="stylesheet" href="screen_display.css">
         <link rel="apple-touch-icon" sizes="180x180" href="Images/Favicons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="Images/Favicons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="Images/Favicons/favicon-16x16.png">
@@ -12,6 +12,8 @@
         <link rel="mask-icon" href="Images/Favicons/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     </head>
     <body>
         <nav id="navbar">
@@ -23,9 +25,26 @@
                         <td><a href="#symptoms-content">Symptoms</a></td>
                         <td><a href="#faqs-content">FAQs</a></td>
                         <td><a href="#youtube-content">YouTube</a></td>
+                        <td><a href="#hospital-content">Hospitals</a></td>
                     </tbody>
                 </table>
             </span>
+       </nav>
+
+       <nav id="icon-bar-div">
+            <img src="Images/menu.png" alt="menu" id="menuImgMobile">
+       </nav>
+       <nav id="mobile-menu">
+            <table class="mobile-bar-links">
+                 <tbody>
+                    <tr><td><a href="#main-body-content">Home</a></td></tr>
+                    <tr><td><a href="#tips-content">Tips</a></td></tr>
+                    <tr><td><a href="#symptoms-content">Symptoms</a></td></tr>
+                    <tr><td><a href="#faqs-content">FAQs</a></td></tr>
+                    <tr><td><a href="#youtube-content">YouTube</a></td></tr>
+                    <tr><td><a href="#hospital-content">Hospitals</a></td></tr>
+                </tbody>
+            </table>
        </nav>
 
        <span id="main-body-content" class="bodyDisplayElem">
@@ -37,7 +56,7 @@
             </div>
             <div class="background-cover-1"></div>
        </span>
-       <span id="tips-content" class="bodyDisplayElem">
+       <span id="tips-content" class="bodyDisplayElem" data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-in-quad">
             <h1>Tips</h1>
             <table>
                 <tbody>
@@ -57,7 +76,7 @@
             </table>
        </span>
 
-       <span id="symptoms-content" class="bodyDisplayElem">
+       <span id="symptoms-content" class="bodyDisplayElem" class="bodyDisplayElem" data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-in-quad">
             <h1>Symptoms</h1>
             <table>
                 <thead>
@@ -90,7 +109,7 @@
             </table>
        </span>
 
-       <span id="faqs-content" class="bodyDisplayElem">
+       <span id="faqs-content" class="bodyDisplayElem" class="bodyDisplayElem" data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-in-quad">
             <h1>FAQs</h1><br /><br /><br />
 
             <table>
@@ -117,17 +136,24 @@
             </table>
        </span>       
 
-       <span id="youtube-content" class="bodyDisplayElem">
+       <span id="youtube-content" class="bodyDisplayElem" class="bodyDisplayElem" data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-in-quad">
             <h1>YouTube</h1>
             <iframe width="782" height="440" src="https://www.youtube.com/embed/BtN-goy9VOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        </span>
 
+       <span id="hospital-content" class="bodyDisplayElem" class="bodyDisplayElem" data-aos="fade-in" data-aos-duration="800" data-aos-easing="ease-in-quad">
+            <h1>Hospitals</h1>
+            <p>Hospitals near IITD Campus can be viewed on the map below.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d9078.058084160572!2d77.18787737993144!3d28.544426191537354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scovid%20hospitals%20near%20iit%20delhi!5e0!3m2!1sen!2sin!4v1642657643492!5m2!1sen!2sin" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       </span>
        <footer id="footer-content" class="bodyDisplayElem">
             &copy; Made by <u>Mukund Aggarwal</u>. <br />
             <a href="https://www.linkedin.com/in/mukund-aggarwal-08823122b/"><button><img src="Images/linkedin.png" alt="LinkedIn"></button></a>
             <a href="https://github.com/mukundagg"><button><img src="Images/github.png" alt="GitHub"></button></a>
+            <a href="mailto:mt6210939@@#iitd.ac.in?subject=Query regarding CovidGuide&body=Hey! I visited your website and had a query ..." onmouseover="this.href=this.href.replace('@@#', '@')"><button><img src="Images/email.png" alt="Mail"></button></a>
        </footer>
 
        <script src="main.js"></script>
+       <script data-who="naker.io" src="https://d23jutsnau9x47.cloudfront.net/back/v1.0.9/viewer.js" data-option="{|environment|:{|gradient|:|radial|,|sensitivity|:0.8,|colorStart|:[76,0,39,1],|colorEnd|:[29,13,22,1]},|particle|:{|life|:5,|power|:0.01,|texture|:|https://res.cloudinary.com/naker-io/image/upload/v1642648552/cjmzqhqhqjtdxkksfxqb.png|,|number|:292,|colorStart|:[116,129,92,0.13],|colorEnd|:[198,188,107,0.52],|sizeStart|:1.29,|sizeEnd|:2.58,|direction1|:{|x|:0,|y|:0,|z|:0},|direction2|:{|x|:0,|y|:0,|z|:-100}},|waterMark|:false}" data-container="main-body-content"></script>
     </body>
 </html>

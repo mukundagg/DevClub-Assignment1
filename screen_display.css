@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1024px) {
+  #hospital-content iframe {
+    height: 300px;
+    width: 95%;
+  }
+
+  #youtube-content iframe {
+    height: 300px;
+    width: 95%;
+  }
+
+  #faqs-content h1 {
+    margin-bottom: 0px;
+  }
+  #faqs-content table {
+    border-spacing: 5px 5px;
+    margin-bottom: 10px;
+  }
+
+  #symptoms-content table, #tips-content table {
+    margin-left: 2%;
+    width: 95%;
+  }
+
+  #tips-content td p {
+    font-size: 1.75em !important;
+  }
+  #tips-content td img {
+    max-height: 175px;
+  }
+
+  .banner-title {
+    margin-top: 25% !important;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+  }
+  .banner-title h2 {
+    font-size: 1.8em !important;
+  }
+  .banner-title h1 {
+    font-size: 3.2em !important;
+  }
+
+  .background-cover-1 {
+    max-height: 350px !important;
+    max-width: 350px !important;
+    margin-right: calc(48% - 175px);
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  #icon-bar-div {
+    z-index: 11;
+    position: fixed;
+    top: 0px;
+    left: calc(100% - 105px);
+    height: 80px;
+    width: 80px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+  }
+  #icon-bar-div img {
+    height: 70px;
+    width: 70px;
+    margin-top: 5px;
+  }
+
+  #mobile-menu {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #4C0027;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    opacity: 0;
+  }
+  #mobile-menu a {
+    font-family: "Roboto";
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+/*# sourceMappingURL=screen_display.css.map */

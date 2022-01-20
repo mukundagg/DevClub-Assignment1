@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1024px) {
+    #hospital-content {
+        iframe {
+            height: 300px;
+            width: 95%;
+        }
+    }
+
+    #youtube-content {
+        iframe {
+            height: 300px;
+            width: 95%;
+        }
+    }
+
+    #faqs-content {
+        h1 {
+            margin-bottom: 0px;
+        }
+        table {
+            border-spacing: 5px 5px;
+            margin-bottom: 10px;
+        }
+    }
+
+    #symptoms-content, #tips-content {
+        table {
+            margin-left: 2%;
+            width: 95%;
+        }
+    }
+
+    #tips-content {
+        td p {
+            font-size: 1.75em !important;
+        }
+
+        td img {
+            max-height: 175px;
+        }
+    }
+
+    .banner-title {
+        margin-top: 25% !important;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+
+        h2 {
+            font-size: 1.8em !important;
+        }
+
+        h1 {
+            font-size: 3.2em !important;
+        }
+    }
+
+    .background-cover-1 {
+        max-height: 350px !important;
+        max-width: 350px !important;
+        margin-right: calc(48% - 175px);
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #icon-bar-div {
+        z-index: 11;
+        position: fixed;
+        top: 0px;
+        left: calc(100% - 105px);
+        height: 80px;
+        width: 80px;
+        //background-color: rgba(255, 255, 255, .5);
+        //box-shadow: 0px 0px 2px 0px #aaa;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        cursor: pointer;
+
+        img {
+            height: 70px;
+            width: 70px;
+            margin-top: 5px;
+        }
+    }
+
+    #mobile-menu {
+        position: fixed;
+        display: flex;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        background-color: #4C0027;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        opacity: 0;
+
+        a {
+            font-family: "Roboto";
+            font-size: 2em;
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+}

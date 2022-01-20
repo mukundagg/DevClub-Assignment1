@@ -3,6 +3,21 @@
 $sans-font: "Roboto";
 $body-sans: 'Montserrat';
 
+nav {
+    position: sticky;
+    background-color: inherit;
+}
+
+#mobile-menu {
+    z-index: -1;
+    opacity: 0;
+}
+
+#icon-bar-div {
+    z-index: -1;
+    opacity: 0;
+}
+
 #main-body-content {
     position: absolute;
     top: 0px;
@@ -160,10 +175,10 @@ $body-sans: 'Montserrat';
     }
 }
 
-#youtube-content {
+#youtube-content, #hospital-content {
     position: absolute;
     left: 0px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     width: 100%;
     background-color: #fff;
     text-align: center;
@@ -172,13 +187,29 @@ $body-sans: 'Montserrat';
         @extend %h1_style_display;
         margin-bottom: 75px;
     }
+
+    p {
+        font-family: $sans-font;
+        font-size: 1.5em;
+        margin-bottom: 50px;
+    }
+}
+
+#hospital-content {
+    padding-top: 75px;
+    background-color: #e5e5e5;
+    padding-bottom: 100px;
+
+    h1 {
+        margin-bottom: 35px;
+    }
 }
 
 #footer-content {
     position: absolute;
     left: 0px;
     padding-top: 75px;
-    padding-bottom: 45px;
+    padding-bottom: 55px;
     width: 100%;
     background-color: #4C0027;
     text-align: center;
@@ -189,9 +220,9 @@ $body-sans: 'Montserrat';
     button {
         height: 50px;
         width: 50px;
-        margin-top: 25px;
-        margin-left: 7.5px;
-        margin-right: 7.5px;
+        margin-top: 35px;
+        margin-left: 5px;
+        margin-right: 5px;
         background-color: inherit;
         border: none;
         transition: 0.3s all ease;
@@ -199,8 +230,8 @@ $body-sans: 'Montserrat';
     }
 
     button img {
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
     }
 
     button:hover {
