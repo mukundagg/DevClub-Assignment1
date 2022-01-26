@@ -1,3 +1,9 @@
+# Live Website via Firebase / Github Pages
+
+The website is hosted on https://covid-guide-mukund.web.app/
+
+The GitHub Pages link is https://mukundagg.github.io/DevClub-Assignment1/
+
 # DevClub-Assignment1
 
 You have learnt about HTML, CSS and GitHub in our first session. Now use them to create a webpage by yourself!
