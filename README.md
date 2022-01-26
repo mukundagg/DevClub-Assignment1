@@ -1,6 +1,7 @@
-# Live Website via Firebase
+# Live Website via Firebase / Github Pages
 
 The website is hosted on https://covid-guide-mukund.web.app/
+The GitHub Pages link is https://mukundagg.github.io/DevClub-Assignment1/
 
 # DevClub-Assignment1
 
