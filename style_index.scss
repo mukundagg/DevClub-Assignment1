@@ -52,9 +52,9 @@ $body-sans: 'Montserrat';
 
 #tips-content {
     position: absolute;
+    top: calc(100% + 200px);
     left: 0px;
-    padding-top: 40px;
-    padding-bottom: 100px;
+    height: 924px;
     width: 100%;
     background-color: #fff;
 
@@ -90,8 +90,8 @@ $body-sans: 'Montserrat';
 #symptoms-content {
     position: absolute;
     left: 0px;
-    padding-top: 40px;
-    padding-bottom: 100px;
+    height: 794px;
+    top: calc(100% + 1124px);
     width: 100%;
     background: #E8AFCE;
     text-align: center;
@@ -124,8 +124,8 @@ $body-sans: 'Montserrat';
 #faqs-content {
     position: absolute;
     left: 0px;
-    padding-top: 40px;
-    padding-bottom: 100px;
+    top: calc(100% + 1124px + 844px);
+    height: 1224px;
     width: 100%;
     background-color: #fff;
 
@@ -163,7 +163,8 @@ $body-sans: 'Montserrat';
 #youtube-content {
     position: absolute;
     left: 0px;
-    padding-bottom: 200px;
+    height: 734px;
+    top: calc(100% + 1124px + 844px + 1174px);
     width: 100%;
     background-color: #fff;
     text-align: center;
@@ -177,8 +178,9 @@ $body-sans: 'Montserrat';
 #footer-content {
     position: absolute;
     left: 0px;
-    padding-top: 75px;
-    padding-bottom: 45px;
+    top: calc(100% + 1124px + 844px + 1174px + 734px);
+    padding-top: 50px;
+    height: 150px;
     width: 100%;
     background-color: #4C0027;
     text-align: center;
